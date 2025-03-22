@@ -12,3 +12,6 @@ env/
 
 # Ignore test results
 *.pytest_cache/
+
+#Ignores the build folder
+build/

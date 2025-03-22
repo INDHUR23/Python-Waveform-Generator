@@ -3,21 +3,21 @@
 A simple Python project to generate and visualize waveforms like **sine, square, and triangle waves**.
 
 ## Features
-✔ Generate **Sine, Square, and Triangle** waves  
-✔ Adjustable **frequency and amplitude**  
-✔ Plot waveforms using **Matplotlib**  
-✔ **Tested** with `pytest`  
+1. Generate **Sine, Square, and Triangle** waves  
+2. Adjustable **frequency and amplitude**  
+3. Plot waveforms using **Matplotlib**  
+4. **Tested** with `pytest`  
 
 
 ## Installation
 
-1️⃣ **Clone the Repository**
+**Clone the Repository**
 ```bash
 git clone https://github.com/INDHUR23/Python-Waveform-Generator.git
 cd Python-Waveform-Generator
 ```
 
-2️⃣ **Install Dependencies**
+**Install Dependencies**
 ```bash
 pip install -e .
 ```

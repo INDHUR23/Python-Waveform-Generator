@@ -3,6 +3,8 @@ name = "waveform-generator"
 version = "0.1.0"
 description = "A simple Python waveform generator with plotting capabilities."
 readme = "README.md"
+requires-python = ">=3.7"
+authors = [{ name = "Indhu", email = "indhursty@gmail.com" }]
 dependencies = [
     "numpy",
     "matplotlib",

@@ -1,0 +1,18 @@
+[project]
+name = "waveform-generator"
+version = "0.1.0"
+description = "A simple Python waveform generator with plotting capabilities."
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pytest",
+    "pytest-mpl"
+]
+
+[tool.setuptools]
+packages = ["waveform_generator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--disable-warnings"

@@ -17,35 +17,35 @@ git clone https://github.com/INDHUR23/Python-Waveform-Generator.git
 cd Python-Waveform-Generator
 ```
 
-2️⃣ Install Dependencies
+2️⃣ **Install Dependencies**
 ```bash
 pip install -e .
 ```
-Usage
+## Usage
 
-Generate a Waveform
+**Generate a Waveform**
 ```bash
 from waveform_generator.generator import generate_waveform
 
 t, y = generate_waveform(wave_type="sine", frequency=5, amplitude=1, duration=1, sample_rate=1000)
 ```
-Plot a Waveform
+**Plot a Waveform**
 ```bash
 from waveform_generator.plotter import plot_waveform
 
 plot_waveform(t, y, wave_type="Sine Wave")
 ```
 
-Running Tests
+**Running Tests**
 
 Run all tests using pytest:
 ```bash
 pytest
 ```
 
-Example Output
+## Example Output
 Here’s a sample Sine Wave plot:
-![alt text](image.png)
+![Sine Waveform](sine.png)
 
-Contributing
+## Contributing
 Feel free to submit issues or contribute via pull requests! 
